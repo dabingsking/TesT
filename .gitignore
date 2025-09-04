@@ -1,0 +1,127 @@
+# STM32 项目 .gitignore 文件
+
+# 编译输出文件
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.lss
+*.sym
+*.d
+*.su
+*.axf
+*.htm
+*.dep
+*.uvguix*
+*.uvoptx
+*.bak
+*.orig
+*.tmp
+
+# Keil MDK-ARM 生成的文件
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+MDK-ARM/RTE/
+MDK-ARM/*.uvguix*
+MDK-ARM/*.uvoptx
+MDK-ARM/DebugConfig/
+
+# CLion/CMake 生成的文件
+cmake-build-*/
+.cmake/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# IDE 配置文件（保留部分有用的配置）
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+.idea/shelf/
+
+# 调试文件
+*.jlink
+*.gdb
+*.svd
+
+# 日志文件
+*.log
+
+# 临时文件
+*~
+*.swp
+*.swo
+
+# 操作系统生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 用户自定义文件
+*.user
+*.suo
+*.ncb
+*.aps
+*.plg
+*.opt
+*.clw
+*.tags
+*.depend
+*.layout
+
+# 文档生成文件
+Doxygen/
+doc/html/
+doc/latex/
+
+# 备份文件
+*.backup
+*.bck
+
+# 包管理器文件
+node_modules/
+.npm/
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 密钥和证书文件
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+
+# 测试覆盖率报告
+coverage/
+*.gcov
+*.gcda
+*.gcno
+
+# 性能分析文件
+*.prof
+*.gprof
+
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.tar.bz2
+
+# 特定于项目的排除项
+# 如果有特定的文件或目录需要排除，请在此处添加
